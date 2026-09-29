@@ -1,0 +1,30 @@
+#Virtual environment
+venv/
+
+#Datasets
+dataset/
+dataset_split/
+
+#External test image
+external_images/
+
+#Python cache
+__pycache__/
+*.pyc
+
+#Jupyter
+.ipynb_checkpoints/
+
+#Streamlit
+.streamlit/
+
+#VS Code
+.vscode/
+
+#OS files
+.DS_Store
+Thumbs.db
+
+#Unused model files
+models/indo_fashion_cnn.keras
+models/indo_fashion_transfer.keras
