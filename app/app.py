@@ -73,9 +73,14 @@ uploaded_file = st.file_uploader(
 
 if uploaded_file is not None:
 
-    image = Image.open(uploaded_file).convert("RGB")
+    try:
+        image = Image.open(uploaded_file).convert("RGB")
+        
+        st.image(image,caption="Uploaded Image")
 
-    st.image(image,caption="Uploaded Image")
+    except Exception:
+        st.error("The uploaded file could not be read as an image.")
+        st.stop()
 
     # Resize image to the size expected by the model
     image = image.resize((224, 224))

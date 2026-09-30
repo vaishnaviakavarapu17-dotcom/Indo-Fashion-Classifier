@@ -174,3 +174,17 @@ Prediction
 Modern / Traditional
      ↓
 Confidence Score
+
+## Project Screenshots
+
+### Streamlit Application
+
+![Streamlit Application](results/screenshots/streamlit_app.png)
+
+### Training and Validation Accuracy
+
+![Training Accuracy](results/screenshots/training_accuracy.png)
+
+### Model Performance Comparison
+
+![Model Comparison](results/screenshots/model_comparison.png)
